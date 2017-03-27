@@ -29,7 +29,7 @@ Algoritmo Ejercicio2
 	FinPara
 	
 	// Mostrar vector Ordenado
-	Escribir "EL vector ingresado es: "
+	Escribir "EL vector ordenado por metodo de burbuja es: "
 	Para i<-1 Hasta Tamano Hacer
 		Escribir "[", Vector[i], "]"
 	FinPara
@@ -49,7 +49,7 @@ Algoritmo Ejercicio2
 	fin para
 	
 	// Mostrar vector Ordenado
-	Escribir "EL vector ingresado es: "
+	Escribir "EL vector ordenado por metodo de seleccion es: "
 	Para i<-1 Hasta Tamano Hacer
 		Escribir "[", Vector[i], "]"
 	FinPara
