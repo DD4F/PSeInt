@@ -4,6 +4,7 @@ Algoritmo Ejercio1
 	Dimension Vector[Tamano]
 	
 	Escribir "Bienvenido."
+	Escribir "Se crea un vector con 10 numeros digitados y se ordena de forma ascendente"
 	Escribir "Proceda con el llenado del vector de tamaño 10"
 	
 	//Lectura de datos
@@ -29,7 +30,7 @@ Algoritmo Ejercio1
 	FinPara
 	
 	// Mostrar vector Ordenado
-	Escribir "EL vector ingresado es: "
+	Escribir "EL vector ordenado por metodo de burbuja es: "
 	Para i<-1 Hasta Tamano Hacer
 		Escribir "[", Vector[i], "]"
 	FinPara
@@ -49,7 +50,7 @@ Algoritmo Ejercio1
 	fin para
 	
 	// Mostrar vector Ordenado
-	Escribir "EL vector ingresado es: "
+	Escribir "EL vector ordenado por metodo de seleccion es: "
 	Para i<-1 Hasta Tamano Hacer
 		Escribir "[", Vector[i], "]"
 	FinPara
