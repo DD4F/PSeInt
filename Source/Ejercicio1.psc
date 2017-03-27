@@ -28,6 +28,13 @@ Algoritmo Ejercio1
 		FinPara
 	FinPara
 	
+	// Mostrar vector Ordenado
+	Escribir "EL vector ingresado es: "
+	Para i<-1 Hasta Tamano Hacer
+		Escribir "[", Vector[i], "]"
+	FinPara
+	
+	
 	// Ordenamiento por Seleccion
 	Para i<-1 Hasta Tamano-1 Hacer
 		Min<-i
@@ -41,11 +48,10 @@ Algoritmo Ejercio1
 		Vector[min]<-Aux
 	fin para
 	
-	// MOstrar vector Ordenado
+	// Mostrar vector Ordenado
 	Escribir "EL vector ingresado es: "
 	Para i<-1 Hasta Tamano Hacer
 		Escribir "[", Vector[i], "]"
 	FinPara
-	
-	
+
 FinAlgoritmo
