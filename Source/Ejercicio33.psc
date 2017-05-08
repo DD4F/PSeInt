@@ -3,8 +3,8 @@ Algoritmo Ejercicio3
 	Tamano<-100
 	Dimension Vector[Tamano]
 	
-	Escribir "Bienvenido."
-	Escribir "Se crea un vector con los primeros 100 numeros impares, sera ordenado de forma descendente por metodo de seleccion"
+	Escribir "BIENVENIDO."
+	Escribir "SE INICIA UN VECTOR CON LOS 100 PRIMEROS NUMEROS IMPARES, ESTE SERA ORDENADO DE FORMA DESCENDENTE POR METODO DE SELECCION."
 	
 	//LLenado de datos
 	Para i<-1 Hasta Tamano Hacer
@@ -12,10 +12,8 @@ Algoritmo Ejercicio3
 	FinPara
 	
 	// Mostrar vector ingresado
-	Escribir "EL vector ingresado es: "
-	Para i<-1 Hasta Tamano Hacer
-		Escribir "[", Vector[i], "]"
-	FinPara
+	Escribir ""
+	Escribir "EL VECTOR INGRESADO ES: "
 	
 	// Ordenamiento por Seleccion
 	Para i<-1 Hasta Tamano-1 Hacer
@@ -31,9 +29,11 @@ Algoritmo Ejercicio3
 	fin para
 	
 	// Mostrar vector Ordenado
-	Escribir "EL vector ordenado por metodo de seleccion es: "
+	Escribir "EL VECTOR ORDENADO POR EL METODO DE SELECCION ES: "
+	Escribir Sin Saltar "{ "
 	Para i<-1 Hasta Tamano Hacer
-		Escribir "[", Vector[i], "]"
+		Escribir Sin Saltar Vector[i] " "
 	FinPara
+	Escribir "}"
 	
 FinAlgoritmo
