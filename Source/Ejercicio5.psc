@@ -3,19 +3,23 @@ Algoritmo Ejercicio5
 	Tamano<-50
 	Dimension Vector[Tamano]
 	
-	Escribir "Bienvenido."
-	Escribir "Se crea un vector con 50 numeros aleatorios y se ordena de forma descendente ordenado por el metodo burbuja"
+	Escribir "BIENVENIDO"
+	Escribir "SE CREA UN VETOR CON 50   NUMEROS ALEATORIOS Y SE ORDENA DE FORMA DESCENDENTE MEDIANTE EL METODO DE LA BURBUJA"
 	
 	//LLenado de datos
 	Para i<-1 Hasta Tamano Hacer
 		Vector[i]<- azar(10000)
 	FinPara
 	
+	Limpiar Pantalla
 	// Mostrar vector ingresado
-	Escribir "EL vector ingresado es: "
+	Escribir ""
+	Escribir "EL VECTOR INGRESADO ES: "
+	Escribir Sin Saltar "{ "
 	Para i<-1 Hasta Tamano Hacer
-		Escribir "[", Vector[i], "]"
+		Escribir Sin Saltar Vector[i] " "
 	FinPara
+	Escribir "}"
 	
 	// Ordenaminto Burbuja
 	Para i<-1 Hasta Tamano Hacer
@@ -29,9 +33,11 @@ Algoritmo Ejercicio5
 	FinPara
 	
 	// Mostrar vector Ordenado
-	Escribir "EL vector ordenado por metodo de burbuja es: "
+	Escribir "EL VECTOR ORDENADO PR EL METODO DE LA BURBUJA ES: "
+	Escribir Sin Saltar "{ "
 	Para i<-1 Hasta Tamano Hacer
-		Escribir "[", Vector[i], "]"
+		Escribir Sin Saltar Vector[i] " "
 	FinPara
+	Escribir "}"
 	
 FinAlgoritmo
