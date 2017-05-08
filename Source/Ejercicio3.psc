@@ -3,8 +3,8 @@ Algoritmo Ejercicio3
 	Tamano<-100
 	Dimension Vector[Tamano]
 	
-	Escribir "Bienvenido."
-	Escribir "Se crea un vector con los primeros 100 numeros impares, sera ordenado de forma descendente por metodo de la burbuja"
+	Escribir "BIENVENIDO."
+	Escribir "SE CREA UN VECTOR CON LOS 100 PRIMEROS NUMEROS IMPARES, SERA ORDENADO DE FORMA DESCENDENTE POR METODO DE BURBUJA"
 	
 	//LLenado de datos
 	Para i<-1 Hasta Tamano Hacer
@@ -12,10 +12,13 @@ Algoritmo Ejercicio3
 	FinPara
 	
 	// Mostrar vector ingresado
-	Escribir "EL vector ingresado es: "
+	Escribir ""
+	Escribir "EL VECTOR INGRESADO ES: "
+	Escribir Sin Saltar "{ "
 	Para i<-1 Hasta Tamano Hacer
-		Escribir "[", Vector[i], "]"
+		Escribir Sin Saltar Vector[i] " "
 	FinPara
+	Escribir "}"
 	
 	// Ordenaminto Burbuja
 	Para i<-1 Hasta Tamano Hacer
@@ -29,9 +32,11 @@ Algoritmo Ejercicio3
 	FinPara
 	
 	// Mostrar vector Ordenado
-	Escribir "EL vector ordenado por metodo de burbuja es: "
+	Escribir "EL VECTOR ORDENADO POR METODO DE BURBUJA ES: "
+	Escribir Sin Saltar "{ "
 	Para i<-1 Hasta Tamano Hacer
-		Escribir "[", Vector[i], "]"
+		Escribir Sin Saltar Vector[i] " "
 	FinPara
+	Escribir "}"
 	
 FinAlgoritmo
