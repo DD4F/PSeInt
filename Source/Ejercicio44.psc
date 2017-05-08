@@ -3,19 +3,23 @@ Algoritmo Ejercicio4
 	Tamano<-50
 	Dimension Vector[Tamano]
 	
-	Escribir "Bienvenido."
-	Escribir "Se crea un vector con 50 numeros aleatorios y se ordena de forma ascendente ordenado por el metodo de seleccion"
+	Escribir "BIENVENIDO."
+	Escribir "SE CREA UN VECTOR CON 50 NUMEROS ALEATORIOS Y SE ORDENA DE FORMA ASCENDENTE POR METODO DE SELECCION."
 	
 	//LLenado de datos
 	Para i<-1 Hasta Tamano Hacer
 		Vector[i]<- azar(10000)
 	FinPara
 	
+	Limpiar Pantalla
 	// Mostrar vector ingresado
-	Escribir "EL vector ingresado es: "
+	Escribir ""
+	Escribir "EL VECTOR INGRESADO ES: "
+	Escribir Sin Saltar "{ "
 	Para i<-1 Hasta Tamano Hacer
-		Escribir "[", Vector[i], "]"
+		Escribir Sin Saltar Vector[i] " "
 	FinPara
+	Escribir "}"
 	
 	// Ordenamiento por Seleccion
 	Para i<-1 Hasta Tamano-1 Hacer
@@ -31,9 +35,11 @@ Algoritmo Ejercicio4
 	fin para
 	
 	// Mostrar vector Ordenado
-	Escribir "EL vector ordenado por metodo de seleccion es: "
+	Escribir "EL VECTOR ORDENADO POR METODO DE SELECCION ES: "
+	Escribir Sin Saltar "{ "
 	Para i<-1 Hasta Tamano Hacer
-		Escribir "[", Vector[i], "]"
+		Escribir Sin Saltar Vector[i] " "
 	FinPara
+	Escribir "}"
 	
 FinAlgoritmo
