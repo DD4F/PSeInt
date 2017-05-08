@@ -3,19 +3,22 @@ Algoritmo Ejercicio2
 	Tamano<-10
 	Dimension Vector[Tamano]
 	
-	Escribir "Bienvenido."
-	Escribir "Proceda con el llenado del vector de tamaño 10, Sera ordenado de forma descendente"
+	Escribir "BIENVENIDO."
+	Escribir "PROCEDA CON EL LLENADO DEL VECTOR DE DIMENSION 10, SERA ORDENADO DE FORMA DESCENDENTE."
 	
 	//Lectura de datos
 	Para i<-1 Hasta Tamano Hacer
-		Escribir "Digite el valor en posicion [", i, "]: "
+		Escribir Sin Saltar "INGRESE EL VALOR EN LA POSICION [" i "]: "
 		leer Vector[i]
 	FinPara
 	// Mostrar vector ingresado
-	Escribir "EL vector ingresado es: "
+	Escribir ""
+	Escribir "EL VECTOR INGRESADO ES: "
+	Escribir Sin Saltar "{ "
 	Para i<-1 Hasta Tamano Hacer
-		Escribir "[", Vector[i], "]"
+		Escribir Sin Saltar Vector[i] " "
 	FinPara
+	Escribir "}"
 	
 	// Ordenamiento por Seleccion
 	Para i<-1 Hasta Tamano-1 Hacer
@@ -31,9 +34,12 @@ Algoritmo Ejercicio2
 	fin para
 	
 	// Mostrar vector Ordenado
-	Escribir "EL vector ordenado por metodo de seleccion es: "
+	Escribir ""
+	Escribir "EL VECTOR ORDENADO POR METODO DE SELECCION ES: "
+	Escribir Sin Saltar "{ "
 	Para i<-1 Hasta Tamano Hacer
-		Escribir "[", Vector[i], "]"
+		Escribir Sin Saltar Vector[i] " "
 	FinPara
+	Escribir "}"
 	
 FinAlgoritmo
